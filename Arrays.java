@@ -5,6 +5,10 @@ class Arrays {
         // int[] rno = new int[5];
         // int[] rno2 = { 2, 3, 4, 5, 5 };
 
+Scanner in= new Scanner(System.in);
+
+
+
         // int[] ros;//declaration of array, ros is getting defined in the stack
         // ros=new int[5];//initialisation: actually here object is being created in the
         // memory(heap)
@@ -40,8 +44,4 @@ class Arrays {
         };
 
         
-    } 
-       
-
-    
-
+    }
