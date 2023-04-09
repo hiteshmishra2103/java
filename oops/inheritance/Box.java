@@ -11,7 +11,8 @@ public class Box {
         this.w = -1;
     }
 
-    Box(double side) {
+    Box(double side) 
+    {
         this.w = side;
         this.h = side;
         this.l = side;
@@ -32,5 +33,5 @@ public class Box {
     public void information() {
         System.out.println("Running the box!");
     }
-    
+
 }
