@@ -87,7 +87,7 @@ public class SearchinginRotatedarray {
 
         //Note: what if these elements at start and end were the pivots?
 
-        //check if start is pivot(start will be the pivot when next element will be less)
+        //check if start is pivot(start will be the pivot  when next element will be less)
 
         if (arr[start] > arr[start + 1]) {
           return start;
@@ -102,11 +102,13 @@ public class SearchinginRotatedarray {
         end--;
       }
       //left side is sorted, so pivot should be in right
-      else if (
+      else if ( 
         arr[start] < arr[mid] || (arr[start] == arr[mid] && arr[mid] > arr[end])
       ) {
         start = mid + 1;
-      } else {
+      } 
+      //pivot is in left
+      else {
         end = mid - 1;
       }
     }
