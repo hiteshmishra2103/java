@@ -1,5 +1,7 @@
 package oops.inheritance;
 
+import java.util.Scanner;
+
 class Base1 {
 
   public int x;
@@ -70,3 +72,5 @@ public class Constructors_in_inheritance {
     childOfDerived cd = new childOfDerived(12, 2, 3);
   }
 }
+
+

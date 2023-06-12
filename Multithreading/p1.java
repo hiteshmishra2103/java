@@ -6,13 +6,12 @@ public class p1 {}
 
 //creating my own thread: By extending the thread class
 class t11 extends Thread {
-
+@override
   public void run() {
     Scanner obj = new Scanner(System.in);
     System.out.println("enter the vaue of a: ");
     int a = obj.nextInt();
     System.out.println(a);
-
     System.out.println("Done with show1()");
     obj.close();
     System.out.println(Thread.currentThread().getName());//it will print the thread which runs this line

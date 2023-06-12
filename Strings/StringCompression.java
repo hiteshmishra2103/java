@@ -15,7 +15,7 @@ public class StringCompression {
       if (count > 1) {
         newStr.append(count);
       }
-    } 
+    }
     return newStr.toString();
   }
 
